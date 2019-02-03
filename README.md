@@ -10,8 +10,8 @@ Designed with KiCAD.
 ## Features
 
 <ul>
-  <li>Boost converter based on [MCP1661](http://ww1.microchip.com/downloads/en/DeviceDoc/20005315B.pdf).</li>
-  <li>One cell LiPO battery charger based on [MCP73831](http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf).</li>
+  <li>Boost converter based on <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005315B.pdf">MCP1661</a>.</li>
+  <li>One cell LiPO battery charger based on <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf">MCP73831</a>.</li>
   <li>Adjustable low input voltage indication.</li>
   <li>All three parts of the circuit can be cut out of the board and used seperately.</li>
 </ul>
