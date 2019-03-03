@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "1Cell LiPO BOOST converter with low voltage indication"
-Date "2019-01-30"
-Rev "A"
+Date "2019-03-03"
+Rev "B"
 Comp "Martynas J."
 Comment1 ""
 Comment2 ""
@@ -432,24 +432,24 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 5C50C8A0
-P 4000 4150
-F 0 "R3" H 4070 4196 50  0000 L CNN
-F 1 "1K" H 4070 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 4150 50  0001 C CNN
-F 3 "~" H 4000 4150 50  0001 C CNN
-	1    4000 4150
-	1    0    0    -1  
+P 4000 4450
+F 0 "R3" H 4070 4496 50  0000 L CNN
+F 1 "1K" H 4070 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 4450 50  0001 C CNN
+F 3 "~" H 4000 4450 50  0001 C CNN
+	1    4000 4450
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_ALT D1
 U 1 1 5C50C8A7
-P 4000 4450
-F 0 "D1" V 4038 4333 50  0000 R CNN
-F 1 "LED" V 3947 4333 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 4000 4450 50  0001 C CNN
-F 3 "~" H 4000 4450 50  0001 C CNN
-	1    4000 4450
-	0    -1   -1   0   
+P 4000 4150
+F 0 "D1" V 4038 4033 50  0000 R CNN
+F 1 "LED" V 3947 4033 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4000 4150 50  0001 C CNN
+F 3 "~" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4000 3900 4000 4000
@@ -477,12 +477,8 @@ Wire Wire Line
 Wire Wire Line
 	2500 4300 2500 4900
 Wire Wire Line
-	4000 4600 4000 4900
-Wire Wire Line
 	3450 4100 3450 4900
 Connection ~ 3450 4900
-Wire Wire Line
-	3450 4900 4000 4900
 Wire Wire Line
 	3850 3700 4000 3700
 Wire Notes Line
@@ -542,9 +538,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 3250 4150 3250
 Connection ~ 4450 3250
-Wire Wire Line
-	4000 4900 4300 4900
-Connection ~ 4000 4900
 Connection ~ 4850 4900
 Wire Notes Line
 	2250 2700 9300 2700
@@ -733,4 +726,13 @@ F 3 "" H 3700 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 3050 3700 3250
+Wire Wire Line
+	3450 4900 4300 4900
+Wire Wire Line
+	4000 4600 4000 4750
+Wire Wire Line
+	4000 4750 4150 4750
+Wire Wire Line
+	4150 4750 4150 3850
+Connection ~ 4150 3850
 $EndSCHEMATC

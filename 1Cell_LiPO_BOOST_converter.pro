@@ -1,4 +1,4 @@
-update=2019 m. vasario 03 d. 16:56:38
+update=2019 m. kovo 03 d. 11:06:47
 version=1
 last_client=kicad
 [general]

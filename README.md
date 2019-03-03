@@ -16,8 +16,14 @@ Designed with KiCAD.
   <li>All three parts of the circuit can be cut out of the board and used seperately.</li>
 </ul>
 
+## Rev B
+
+<ul>
+  <li>Fixed LiPO charger indicator LED polarity.</li>
+</ul>
 
 ## Board pictures
 
+![pcb](https://raw.githubusercontent.com/f5AFfMhv/1cell-LiPO_BOOST-converter/master/pics/pcb.png)
 ![3D top](https://raw.githubusercontent.com/f5AFfMhv/1cell-LiPO_BOOST-converter/master/pics/3d_top.png)
 ![3d bottom](https://raw.githubusercontent.com/f5AFfMhv/1cell-LiPO_BOOST-converter/master/pics/3D_bottom.png)
